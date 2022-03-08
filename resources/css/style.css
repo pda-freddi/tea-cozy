@@ -1,0 +1,144 @@
+/* Universal Styles */
+
+* {
+  border: 1px solid white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+header {
+  position: fixed;
+  background-color: black;
+  opacity: 1.0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  border: 1px solid white;
+  width: 100%;
+}
+
+header > img {
+  height: 50px;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+header > nav {
+  border: 1px solid white;
+  display: inline-block;
+}
+
+
+header .nav-menu {
+  display: inline-block;
+  border: 1px solid white;
+}
+
+header .nav-menu li {
+  display: inline-block;
+  border: 1px solid white;
+  margin: 0;
+}
+
+.nav-menu a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.nav-menu a:hover {
+  color: red;
+}
+
+/* Main Styles */
+
+main {
+  position: relative;
+  top: 69px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/* Mission Section */
+
+.mission-background {
+  border: 1px solid white;
+  width: 1200px;
+  height: 700px;
+  background-image: url('../images/img-mission-background.webp');
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#mission {
+  background-color: black;
+  border: 1px solid white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Featured Tea Section */
+
+section#featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div#featured-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.image-container {
+  border: 1px solid white;
+}
+
+.image-container img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Locations Section */
+
+#locations {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: url('../images/img-locations-background.webp');
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer Styles */
+
+footer {
+  position: relative;
+  top: 69px;
+  text-align: center;
+  height: 200px;
+}
+
+h5#copyright-info {
+  text-align: left;
+}
+
+
+
+
