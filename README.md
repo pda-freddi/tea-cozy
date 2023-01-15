@@ -1,11 +1,16 @@
 # Tea Cozy Project
 
-This project is part of **Codecademy's Full Stack Engineering Path's** challenge projects.
+This project is a webpage for a fictional tea house called Tea Cozy.
 
-Starting with a [*design spec*](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg) file and some images for background and content, the objective was to reproduce the website using HTML and CSS.
-
-It was a great opportunity to practice intermediate CSS concepts like the Flexbox layout tool.
+Starting with a [*design specification*](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg) and images for background and content, the objective was to design a pixel perfect webpage that matches the specification.
 
 You can find the live version [here](https://pedro-freddi.github.io/tea-cozy/).
 
-Thanks for visiting!
+## Technologies
+
+- HTML
+- CSS
+
+## Acknowledgments
+
+Design specification and images from [Codecademy](https://www.codecademy.com/).
